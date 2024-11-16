@@ -1,0 +1,19 @@
+# Root .gitignore
+node_modules/
+.env
+.env.local
+build/
+dist/
+coverage/
+
+# Hardhat
+contracts/artifacts/
+contracts/cache/
+
+# Next.js
+web/.next/
+web/out/
+
+# Expo
+mobile/.expo/
+mobile/web-build/

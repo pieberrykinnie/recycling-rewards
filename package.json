@@ -1,0 +1,16 @@
+{
+  "name": "recycling-rewards",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "mobile",
+    "web",
+    "backend"
+  ],
+  "scripts": {
+    "contracts": "cd contracts && npx hardhat compile",
+    "web": "cd web && npm run dev",
+    "mobile": "cd mobile && npm start"
+  }
+}
